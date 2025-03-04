@@ -13,6 +13,7 @@ createRoot(document.getElementById("root")).render(
       <Header />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/SignUp" element={<DownloadApp />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/DownloadApp" element={<DownloadApp />} />
       </Routes>

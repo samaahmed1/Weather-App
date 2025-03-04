@@ -54,7 +54,7 @@ export default function Header() {
               setOpenNav(false);
             }}
             className="bg-gradient-to-r from-[#3A5E72] to-[#5C93B1] py-3 px-5 rounded-lg text-center mt-3 md:mt-0"
-            to={"/"}
+            to={"/SignUp"}
           >
             Sign up
           </Link>
