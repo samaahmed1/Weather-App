@@ -43,7 +43,7 @@ export default function Header() {
                 onClick={() => {
                   setOpenNav(false);
                 }}
-                to={"/"}
+                to={"/ContactUs"}
               >
                 Contact us
               </Link>
