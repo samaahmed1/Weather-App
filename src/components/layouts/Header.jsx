@@ -6,7 +6,7 @@ export default function Header() {
     setOpenNav(!openNav);
   }
   return (
-    <header className="text-white py-5 sticky top-0">
+    <header className="bg-[#1B262C] text-white py-5 sticky top-0">
       <div className="container px-5 mx-auto flex items-center justify-between">
         <div className="logo w-32 text-lg font-bold">
           <Link to={"/"}>Dark Weather</Link>
