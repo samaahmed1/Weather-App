@@ -1,3 +1,4 @@
+import Card from "../utils/Crad";
 import Controls from "../utils/Controls";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
           Seeing the weather of the whole world <br /> with <span className="font-bold bg-gradient-to-r from-[#CAECFF] to-[#78CFFF] text-transparent bg-clip-text">Dark Weather!</span>
         </h1>
         <Controls />
+        <Card />
       </div>
     </section>
   );
